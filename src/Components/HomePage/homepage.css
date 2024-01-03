@@ -1,0 +1,78 @@
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+/* desktop 769px — 1024px: Small screens, laptops */
+@media only screen and (min-width: 769px) {
+    .HomePage_wrapper {
+      padding: 15px;
+      display: grid;
+      row-gap: 1rem;
+    }
+  
+    .flash_sale {
+      background: var(--orange-bg);
+      padding: 14px 0px 14px 0px;
+      border-radius: 8px;
+      display: flex;
+      gap: 23px;
+      color: #fff;
+      justify-content: center;
+    }
+  
+    .main_nav_wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      margin: auto;
+    }
+  
+    .main_nav_wrapper a {
+      text-decoration: none;
+      color: #262626;
+    }
+  
+    .main_nav_wrapper .left {
+      display: flex;
+      align-items: center;
+    }
+  
+    .main_nav_wrapper .left .nav_link_grp {
+      display: flex;
+      list-style-type: none;
+      list-style-position: inside;
+      gap: 1rem;
+    }
+  
+    .main_nav_wrapper .right {
+      display: flex;
+      gap: 1rem;
+    }
+  
+    .main_nav_wrapper .toggle_btn_box {
+      display: none;
+    }
+  
+    .login_btn {
+      background: var(--orange-bg);
+      color: white !important;
+    }
+  
+    .active {
+      background: #f1f1f3;
+    }
+  
+  
+    /*  */
+  }
+  
+  /*  tablet 481px — 768px: iPads, Tablets*/
+  @media only screen and (max-width: 481px) {
+  }
+  
+  /* mobile 320px — 480px: Mobile devices*/
+  @media only screen and (max-width: 480px) {
+  }
