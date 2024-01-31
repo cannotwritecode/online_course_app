@@ -1,3 +1,4 @@
+import React from 'react'
 import './partials.css'
 import logo from '../../assets/icons/Logo.png'
 import { EnvironmentOutlined, PhoneOutlined, MailOutlined, FacebookFilled, TwitterSquareFilled, LinkedinFilled } from '@ant-design/icons';
@@ -6,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <footer className="footer_wrapper">
+        <div className="footer_wrapper">
             <div className="footer_wrapper_row_1">
                 <div className="left">
                     <div className="">
@@ -101,7 +102,7 @@ const Footer = () => {
             <p className="copyright_wrapper">
                 &copy; 2023 Skillbridge. All rights reserved.
             </p>
-        </footer>
+        </div>
     )
 }
 
